@@ -8,7 +8,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+  background: linear-gradient(45deg, #e630e6, #b3b014);
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   width: 90vw;
   max-width: 37.5em;
   padding: 3em 1.8em;
-  background-color: #1e293b;
+  background-color: #801b1b;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -42,7 +42,7 @@ body {
 }
 .search-container input {
   background-color: transparent;
-  border: 1px solid #a0a0a0;
+  border: 1px solid white;
   color: #fff;
   padding: 0.9em;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .search-container button {
-  background-color: #ffb92a;
+  background-color: white;
   border: none;
   cursor: pointer;
 }
@@ -68,6 +68,7 @@ body {
 }
 .poster {
   width: 100%;
+  border-radius: 0.5em;
 }
 h2 {
   text-align: center;
@@ -96,7 +97,7 @@ h2 {
   font-size: 0.95em;
   gap: 1em;
   justify-content: center;
-  color: #a0a0a0;
+  color: white;
   margin: 0.6em 0;
   font-weight: 300;
 }
@@ -106,7 +107,7 @@ h2 {
 }
 
 .genre div {
-  border: 1px solid #a0a0a0;
+  border: 1px solid white;
   font-size: 0.75em;
   padding: 0.4em 1.6em;
   border-radius: 0.5em;
@@ -123,7 +124,7 @@ p {
   font-weight: 300;
   line-height: 1.8em;
   text-align: justify;
-  color: #a0a0a0;
+  color: white;
 }
 .msg {
   text-align: center;
